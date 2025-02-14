@@ -1,0 +1,10 @@
+phidata #for data
+python-dotenv #for environment variables
+yfinance #for stock data
+packaging #for packaging
+duckduckgo-search #for websearch
+uvicorn #for server
+groq #for data
+fastapi #for frontend
+openai
+
