@@ -16,11 +16,9 @@ This repository contains a Streamlit application that integrates phi-based AI ag
    git clone https://github.com/essiebx/Financial-Agent.git
    
  ## getting started
-
-  
-  2. **Create a Virtual Environment:**:
-
-   ```shell
+ 
+2. **Create a Virtual Environment**
+ ```shell
    py -m venv myvenv
 
   ``` shell
@@ -37,12 +35,19 @@ pip install -r requirements.txt
 
   **Add your API keys: **
 
-  ```
-OPENAI_API_KEY=' replace this with _your_openai_api_key'
-GROQ_API_KEY_API_KEY='replace this withyour_duckduckgo_api_key'
-API_KEY_Y='replace this with _your_phidata_api_key'
+ ## Environment Variables Setup
 
-  ```
+Create a `.env` file in the root directory and add the following keys:
+
+```shell
+OPENAI_API_KEY='replace this with your OpenAI API key'
+# You will need a subscription for this API key.
+# The OpenAI API key is associated with the Phi-Data framework, which still relies on it.
+
+GROQ_API_KEY='replace this with your Groq API key'
+
+PHIDATA_API_KEY='replace this with your PhiData API key'
+
 ## API Key Setup
 
 - **Groq API Key** → [Generate your key here](https://console.groq.com/keys)
